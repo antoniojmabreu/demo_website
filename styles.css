@@ -73,8 +73,8 @@ body {
 }
 
 :root {
-    --home-services-primary: #2c3e50;
-    --home-services-secondary: #e74c3c;
+    --home-services-primary: #2563eb;  /* Changed from #2c3e50 to a vibrant blue */
+    --home-services-secondary: #1d4ed8; /* Changed from #e74c3c to a darker blue */
     --landscape-primary: #27ae60;
     --landscape-secondary: #f1c40f;
 }
