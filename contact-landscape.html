@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Pro Landscape</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="landscape-theme">
+    // ...navbar...
+
+    <section class="contact-hero py-5 bg-success text-white">
+        <div class="container text-center">
+            <h1 class="display-4">Vamos Transformar o Seu Espaço</h1>
+            <p class="lead">Contacte-nos para uma consulta gratuita</p>
+        </div>
+    </section>
+
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <form class="contact-form p-4 rounded shadow-sm">
+                        <h3 class="mb-4">Formulário de Contacto</h3>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label>Nome</label>
+                                <input type="text" class="form-control" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Email</label>
+                                <input type="email" class="form-control" required>
+                            </div>
+                            <div class="col-12">
+                                <label>Tipo de Serviço</label>
+                                <select class="form-select">
+                                    <option>Manutenção de Jardim</option>
+                                    <option>Design Paisagístico</option>
+                                    <option>Instalação de Sistema de Rega</option>
+                                    <option>Outro</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label>Mensagem</label>
+                                <textarea class="form-control" rows="4"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success btn-lg w-100">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info bg-light p-4 rounded shadow-sm">
+                        <h3 class="mb-4">Informações de Contacto</h3>
+                        <div class="d-flex mb-3">
+                            <i class="fas fa-map-marker-alt fa-2x text-success me-3"></i>
+                            <div>
+                                <h5>Localização</h5>
+                                <p>Rua Principal 123, 1234-567 Lisboa</p>
+                            </div>
+                        </div>
+                        // ... more contact info items ...
+                    </div>
+                    <div class="map-container mt-4 rounded overflow-hidden shadow-sm">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.5!2d-9.1!3d38.7!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDQyJzAwLjAiTiA5wrAwNicwMC4wIlc!5e0!3m2!1sen!2spt!4v1234567890!5m2!1sen!2spt" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
