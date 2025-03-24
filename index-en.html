@@ -10,14 +10,19 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark bg-opacity-75">
+    <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <i class="fas fa-home"></i> Pro Services
             </a>
-            <div class="ms-auto">
-                <a href="index.html" class="btn btn-outline-light me-2">PT</a>
-                <a href="index-en.html" class="btn btn-outline-light active">EN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home-services-en.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="landscape-en.html">Landscape</a></li>
+                </ul>
             </div>
         </div>
     </nav>

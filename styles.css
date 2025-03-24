@@ -426,9 +426,28 @@ body {
 
 /* Custom Navigation */
 .navbar-custom {
-    backdrop-filter: blur(10px);
-    background: rgba(255,255,255,0.9);
+    backdrop-filter: none;
+    background: rgba(33, 37, 41, 1);  /* Solid dark background */
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar .nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem !important;
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar-brand i {
+    color: white;
 }
 
 /* Hero Section Enhancements */
