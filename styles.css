@@ -7,8 +7,8 @@ body {
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd') no-repeat center center;
     background-size: cover;
-    height: 100vh;
-    min-height: 500px;
+    height: 60vh; /* Reduced from 100vh */
+    min-height: 400px; /* Reduced from 500px */
 }
 
 /* Service Cards */
@@ -417,7 +417,7 @@ body {
 .hero-content {
     position: relative;
     z-index: 2;
-    padding: 5rem 0;
+    padding: 3rem 0; /* Reduced from 5rem */
 }
 
 .hero-title {
@@ -431,7 +431,7 @@ body {
     padding: 12px 24px;
     min-width: 200px;
     max-width: 400px;
-    border-radius: 50px;
+    border-radius: 15px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
