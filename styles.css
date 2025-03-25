@@ -7,8 +7,29 @@ body {
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd') no-repeat center center;
     background-size: cover;
-    height: 60vh; /* Reduced from 100vh */
-    min-height: 400px; /* Reduced from 500px */
+    min-height: 600px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 3rem 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 500px;
+        padding: 2rem 0;
+    }
+    
+    .hero-content {
+        padding: 1rem 0;
+    }
 }
 
 /* Service Cards */
@@ -68,7 +89,12 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-section {
-        min-height: 400px;
+        min-height: 500px;
+        padding: 2rem 0;
+    }
+    
+    .hero-content {
+        padding: 1rem 0;
     }
 }
 
